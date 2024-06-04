@@ -1,4 +1,4 @@
-[output.csv](https://github.com/user-attachments/files/15570395/output.csv)Descrição do Projeto
+ Descrição do Projeto
 Este projeto é um simulador de autômatos finitos desenvolvido em JavaScript. A ferramenta recebe 
 dois arquivos contendo a representação de um autômato finito e uma lista de testes com cadeias de
 entrada e seus resultados esperados. O simulador processa cada cadeia de entrada, verifica se ela é 
