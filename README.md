@@ -45,25 +45,27 @@ O arquivo `automaton.json` deve conter a representação do autômato em JSON. E
 ### Arquivo input.csv
 
 Cada linha do arquivo `input.csv` contém uma cadeia de entrada e o resultado esperado, separados por ponto e vírgula:
+
+````
 ab;1
 aaaaabbbbbaaaaa;1
 babababa;0
 bbbbbbbb;0
 aaaaaaaaaaaa;0
 aaaaabaaaaa;1
-
+````
 
 ### Arquivo output.csv
 
 O arquivo `output.csv` gerado pelo simulador contém a cadeia de entrada, o resultado esperado, o resultado obtido e o tempo de processamento, separados por ponto e vírgula:
-
+````
 ab;1;0;0.000086
 aaaaabbbbbaaaaa;1;0;0.000014
 babababa;0;0;0.000004
 bbbbbbbb;0;0;0.000011
 aaaaaaaaaaaa;0;0;0.000008
 aaaaabaaaaa;1;0;0.000005
-
+````
 ### Uso
 
 Para executar o simulador, utilize o seguinte comando:
