@@ -70,6 +70,7 @@ Para executar o simulador, utilize o seguinte comando:
 
 ```bash
 node simulador.js automaton.json input.csv output.csv
+````
 O simulador processará os testes e gerará um arquivo output.csv com os resultados do reconhecimento de cada cadeia de entrada.
 
 
