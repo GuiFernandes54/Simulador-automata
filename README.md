@@ -7,13 +7,13 @@ Este projeto é um simulador de autômatos finitos desenvolvido em JavaScript. A
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
-
+````
 ├── automaton.json # Representação do autômato em JSON
-├── input.csv # Lista de testes com cadeias de entrada e resultados esperados
-├── output.csv # Arquivo gerado com os resultados dos testes
-├── simulador.js # Lógica principal do simulador
-└── README.md # Documentação do projeto
-
+├── input.csv      # Lista de testes com cadeias de entrada e resultados esperados
+├── output.csv     # Arquivo gerado com os resultados dos testes
+├── simulador.js   # Lógica principal do simulador
+└── README.md      # Documentação do projeto
+````
 ## Funcionalidades
 
 - **Simulação de Cadeias de Entrada**: Processa cada cadeia de entrada para verificar se é aceita pelo autômato.
